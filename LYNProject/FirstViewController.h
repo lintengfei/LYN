@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FirstViewController.h
 //  LYNProject
 //
 //  Created by qianfeng on 15/11/23.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
--(void)createDemo;
-
+@interface FirstViewController : UIViewController
 
 @end
-

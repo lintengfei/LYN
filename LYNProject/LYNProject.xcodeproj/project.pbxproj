@@ -14,6 +14,8 @@
 		BCF517351C03100300B35E16 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCF517341C03100300B35E16 /* Images.xcassets */; };
 		BCF517381C03100300B35E16 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCF517361C03100300B35E16 /* LaunchScreen.xib */; };
 		BCF517441C03100300B35E16 /* LYNProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF517431C03100300B35E16 /* LYNProjectTests.m */; };
+		BCF517501C03157000B35E16 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF5174E1C03157000B35E16 /* FirstViewController.m */; };
+		BCF517511C03157000B35E16 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCF5174F1C03157000B35E16 /* FirstViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		BCF5173D1C03100300B35E16 /* LYNProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYNProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCF517421C03100300B35E16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCF517431C03100300B35E16 /* LYNProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYNProjectTests.m; sourceTree = "<group>"; };
+		BCF5174D1C03157000B35E16 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		BCF5174E1C03157000B35E16 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		BCF5174F1C03157000B35E16 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +68,9 @@
 		BCF5171B1C03100300B35E16 = {
 			isa = PBXGroup;
 			children = (
+				BCF5174D1C03157000B35E16 /* FirstViewController.h */,
+				BCF5174E1C03157000B35E16 /* FirstViewController.m */,
+				BCF5174F1C03157000B35E16 /* FirstViewController.xib */,
 				BCF517261C03100300B35E16 /* LYNProject */,
 				BCF517401C03100300B35E16 /* LYNProjectTests */,
 				BCF517251C03100300B35E16 /* Products */,
@@ -202,6 +210,7 @@
 				BCF517331C03100300B35E16 /* Main.storyboard in Resources */,
 				BCF517381C03100300B35E16 /* LaunchScreen.xib in Resources */,
 				BCF517351C03100300B35E16 /* Images.xcassets in Resources */,
+				BCF517511C03157000B35E16 /* FirstViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +231,7 @@
 				BCF517301C03100300B35E16 /* ViewController.m in Sources */,
 				BCF5172D1C03100300B35E16 /* AppDelegate.m in Sources */,
 				BCF5172A1C03100300B35E16 /* main.m in Sources */,
+				BCF517501C03157000B35E16 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +426,7 @@
 				BCF517491C03100300B35E16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCF5174A1C03100300B35E16 /* Build configuration list for PBXNativeTarget "LYNProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +435,7 @@
 				BCF5174C1C03100300B35E16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
